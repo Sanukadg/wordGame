@@ -32,7 +32,7 @@ input{
 }
 
 input:disabled{
-  background-color: rgb(24, 35, 71);
+  background-color: rgb(138, 23, 23);
   color: rgb(23, 21, 60);
 }
 
