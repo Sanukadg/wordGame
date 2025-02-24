@@ -1,8 +1,12 @@
-# React + Vite
+# Wordle-Inspired Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a small fun web application built with **React JS**, inspired by the popular game **WORDLE**. The goal is to guess the 4-letter word within 4 tries. The color feedback helps you narrow down the correct word:
 
-Currently, two official plugins are available:
+- 🟨 **Yellow**: The letter is in the word but not at the correct index.
+- 🟩 **Green**: The letter is correct and in the correct position.
+- 🟥 **Red**: The letter is not in the word at all.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Guess the 4-letter word within 4 tries.
+- Feedback after each guess with 🟨 Yellow, 🟩 Green, or 🟥 Red colors.
+- Limited to 4 attempts to guess the word.
